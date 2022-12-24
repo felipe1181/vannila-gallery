@@ -1,0 +1,39 @@
+html * {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #393739 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #c3c3c3;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #393739;
+  border-radius: 0px;
+  border: 0px solid #ffffff;
+}
+
+.wallpapers {
+  width: 426px;
+}
